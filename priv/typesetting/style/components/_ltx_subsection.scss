@@ -1,0 +1,10 @@
+@import "../media";
+
+.ltx_subsection {
+  margin: 2em 0;
+  transition: all 0.2s;
+
+  @include media(">=tablet") {
+    margin: 3em 0;
+  }
+}

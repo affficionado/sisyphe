@@ -1,0 +1,8 @@
+@import "../fonts";
+.ltx_theorem {
+  .ltx_title_theorem {
+    @include font-body();
+  }
+
+  margin: 2em auto;
+}

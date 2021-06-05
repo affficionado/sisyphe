@@ -1,0 +1,8 @@
+@import "../fonts";
+
+.ltx_equation.ltx_eqn_table {
+  @include font-body();
+  transition: all 0.2s;
+
+  width: 100%;
+}
